@@ -40,7 +40,7 @@
         &kp LSHFT    &kp Z     &kp X     &kp C     &kp V     &kp B           &kp N     &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
                 // ┠─────────┼─────────┼─────────┼─────────┼─────────┨     ┠─────────┼─────────┼─────────┼─────────┼─────────┨
                 //                     │ GUI     │ LWR     │ SHFT    │     │ SPC     │ RSE     │ BSPC    │          
-                                        &kp LGUI   &mo 1     &kp SHFT       &kp SPACE  &mo 2    &kp BSPC
+                                        &kp LGUI   &mo 1     &kp LSHFT       &kp SPACE  &mo 2    &kp BSPC
                 //                     ┗━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┛     ┗━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┛
                         >;
 
