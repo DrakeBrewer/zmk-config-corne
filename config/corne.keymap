@@ -31,13 +31,13 @@
                         bindings = <
                                         // ┏━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┓     ┏━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┓
                                         // ┃  Q      │  W      │  E      │  R      │  T      ┃     ┃  Y      │  U      │  I      │  O      │  P      ┃
-                                             &kp Q     &kp W     &kp E     &kp R     &kp T           &kp Y     &kp U      &kp I    &kp O     &kp P    
+                                &kp TAB     &kp Q     &kp W     &kp E     &kp R     &kp T           &kp Y     &kp U      &kp I    &kp O     &kp P      &kp BSPC
                                         // ┠─────────┼─────────┼─────────┼─────────┼─────────┨     ┠─────────┼─────────┼─────────┼─────────┼─────────┨
                                         // ┃  A      │  S      │  D      │  F      │  G      ┃     ┃  H      │  J      │  K      │  L      │  ;      │
-                                             &kp A     &kp S     &kp D     &kp F     &kp G           &kp H     &kp J      &kp K    &kp L    &kp SEMI  
+                                &kp LCTRL    &kp A     &kp S     &kp D     &kp F     &kp G           &kp H     &kp J      &kp K    &kp L    &kp SEMI   &kp SQT
                                         // ┠─────────┼─────────┼─────────┼─────────┼─────────┨     ┠─────────┼─────────┼─────────┼─────────┼─────────┨
                                         // ┃  Z      │  X      │  C      │  V      │  B      ┃     ┃  N      │  M      │  ,      │  .      │  /      │
-                                             &kp Z     &kp X     &kp C     &kp V     &kp B           &kp N     &kp M     &kp COMMA  &kp DOT  &kp FSLH 
+                                &kp LSHFT    &kp Z     &kp X     &kp C     &kp V     &kp B           &kp N     &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
                                         // ┠─────────┼─────────┼─────────┼─────────┼─────────┨     ┠─────────┼─────────┼─────────┼─────────┼─────────┨
                                         //                     │ GUI     │ LWR     │ SHFT    │     │ SPC     │ RSE     │ BSPC    │          
                                                                 &kp LGUI   &mo 1     &kp LSHFT       &kp SPACE  &mo 2    &kp BSPC
