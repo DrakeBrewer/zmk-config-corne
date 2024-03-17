@@ -23,11 +23,6 @@
                 //                                         ┗━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┛     ┗━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┛
 
 
-#define DEF 0
-#define LOW 1
-#define HI  2
-#define NUM 3
-
 / {
         keymap {
                 compatible = "zmk,keymap";
