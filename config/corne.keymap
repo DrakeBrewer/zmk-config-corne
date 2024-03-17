@@ -43,7 +43,7 @@
                                 &kp LCTRL    &kp A     &kp R     &kp S     &kp T     &kp G           &kp M     &kp N      &kp E    &kp I    &kp O      &kp ESC
                                         // ┠─────────┼─────────┼─────────┼─────────┼─────────┨     ┠─────────┼─────────┼─────────┼─────────┼─────────┨
                                         // ┃  Z      │  X      │  C      │  D      │  V      ┃     ┃  K      │  H      │  ,      │  .      │  /      │
-                                &kp OPTION    &kp Z     &kp X     &kp C     &kp D     &kp V           &kp K     &kp H     &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
+                                &kp LALT     &kp Z     &kp X     &kp C     &kp D     &kp V           &kp K     &kp H     &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
                                         // ┠─────────┼─────────┼─────────┼─────────┼─────────┨     ┠─────────┼─────────┼─────────┼─────────┼─────────┨
                                         //                     │ GUI     │ LWR     │ SHFT    │     │ SPC     │ RSE     │ BSPC    │          
                                                                 &kp LGUI   &mo 1     &kp LSHFT       &kp SPACE  &mo 2    &kp BSPC
