@@ -22,7 +22,6 @@
                 //                                         ┃         │         │         ┃     ┃         │         │         ┃          
                 //                                         ┗━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┛     ┗━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┛
 
-
 / {
         keymap {
                 compatible = "zmk,keymap";
@@ -63,14 +62,14 @@
                 raise_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// | CTRL |  `  |  ~  |  '  |     |     |   |  -  |  =  |  /  |  [  |  ]  |  \   |
-// | SHFT |     |     |     |     |     |   |  _  |  +  |  .  |  {  | } |  "|"   |
+// | CTRL |  `  |  ~  |  '  |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
+// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
 
                         bindings = <
    &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
-   &kp LCTRL &kp GRAVE   &kp TILDE &kp SQT   &trans   &trans      &kp MINUS &kp EQUAL &kp FSLSH &kp LBKT &kp RBKT &kp BSLSH
-   &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp DOT &kp LBRC &kp RBRC &kp PIPE
+   &kp LCTRL &kp GRAVE   &kp TILDE &kp SQT   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
+   &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
                              &kp LGUI &trans   &kp LSHFT   &kp RET   &trans    &kp RALT
                         >;
                 };
